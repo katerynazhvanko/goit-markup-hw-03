@@ -14,10 +14,8 @@
 
 body{
     margin: 0;
-
     background-color: var(--main-background-color);
     color: var(--main-text-color); 
-
     font-family: Roboto, Geneva, Arial, Helvetica, sans-serif;
     letter-spacing:0.03em;
 }
@@ -64,7 +62,6 @@ ul {
 .contact-nav-item:last-child{margin-right: 0;}
 .contact-nav a {
     color:var(--main-text-color);
-
     text-decoration: none;
     font-weight: 500;
     font-size: 14px; 
@@ -83,19 +80,16 @@ ul {
 }
 .logo {
     display: flex;
-    padding-top: 25px;
+    margin-right: 90px;
+    padding-top:25px;
     padding-bottom: 25px;
-    margin-right: 90px; 
-
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700; 
     font-size: 26px; 
     line-height:1.2;
 }
-.current {
-    color: var(--accent);
-    text-decoration: none; }
+.current {color: var(--accent);text-decoration: none;}
 
 /* Основний контент Студії */
 
@@ -120,8 +114,7 @@ ul {
     margin-top: 0;
 }
 .feature-text, .team-work {color:var(--main-text-color);}
-.banner{background-color: #2F303A;
-    text-align: center;}
+.banner{background-color: #2F303A;text-align: center;}
 .banner-title{
     color:var(--main-background-color);
     font-size: 44px;
@@ -138,7 +131,6 @@ ul {
     border-radius: 4px; 
     cursor: pointer;
     font-family: inherit;
-    
 }
 .button :hover, .button :focus {background-color:#188CE8}
 .text-button{
@@ -212,15 +204,9 @@ ul {
     /* Портфоліо */
 
 .filter{padding-top: 94px; padding-bottom: 94px;}
-.buttonlist{display:flex; align-items: center;}
-.buttonlist-item{ 
-    margin-right: 8px;
-    margin-bottom: 50px;
-}
-.projects{
-    display:flex;
-    flex-wrap:wrap;
-}
+.buttonlist{display:flex; align-items: center;justify-content: center;}
+.buttonlist-item{margin-right: 8px;margin-bottom: 50px;}
+.projects{display:flex;flex-wrap:wrap;}
 .projects-item{
     margin-right: 30px;
     margin-bottom: 30px;
@@ -247,13 +233,11 @@ ul {
     padding-bottom: 6px;
     padding-left: 20px;}
 .filter-button:hover,.filter-button:focus {background-color: var(--accent);color:var(--main-background-color)}
-
 .projects-name{
     margin-top: 20px;
     margin-bottom: 4px;
     padding-right: 24px;
     padding-left: 24px;
-    
     color:var(--title-text-color); 
     font-weight:700;
     font-size: 18px;
@@ -267,16 +251,16 @@ ul {
     color:var(--main-text-color);
     font-size: 16px;
     line-height: 1.9;}
-
-
+.projects-text{padding: 20px 24px; border-right:1px solid #EEEEEE; border-bottom:1px solid #EEEEEE; border-left: 1px solid #EEEEEE;}
 /* Підвал сайту */
+
 .footer{background-color: #2F303A;}
-.logo{padding-top:60px;
+.footer-logo{
+    padding-top:60px;
     padding-bottom: 0;
-margin-bottom: 20px;}
+    margin-bottom: 20px;}
 .studio-logo-footer{color:var(--main-background-color)}
-.footer-information{
-    font-style:normal;}
+.footer-information{font-style:normal;}
 .footer-adress{
     margin-bottom: 9px;
     color: var(--main-background-color);
