@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./css/styles.css">
     <title>Студія</title>
 </head>
@@ -15,7 +15,7 @@
   <header class="header">
     <div class="container">
     <nav class="nav-item">
-      <a href="./" class="logo"><span class="web-logo">Web</span><span class="studio-logo">Studio</span></a>
+      <a href="./" class="emblem header-logo"><span class="web-logo">Web</span><span class="studio-logo">Studio</span></a>
     <ul class="site-nav list">
       <li class="site-nav-item"><a href="./" class="link current">Студія</a></li>
       <li class="site-nav-item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
@@ -32,7 +32,7 @@
     <section class="banner">
       <div class="container">
       <h1 class="banner-title">Ефективні рішення для <br> вашого бізнесу</h1>
-      <button type="button" class="button"><span class="text-button">Замовити послугу</span></button>
+      <button type="button" class="button text-button">Замовити послугу</button>
     </div>
     </section>
   <!--Особливості-->
@@ -62,7 +62,7 @@
   <!--Чим ми займаємось-->
   <section class="section">
     <div class="container">
-    <h2 class="section-title">Чим ми займаємось</h2>
+    <h2 class="section-title ">Чим ми займаємось</h2>
     <ul class="section-group">
       <li class="section-item">
         <img src="./image/box1.jpg" alt="людина друкує на клавіатурі" width="370" height="294">
@@ -82,24 +82,32 @@
     <h2 class="team-title">Наша команда</h2>
     <ul class="team-list">
       <li class="team-item">
-      <img src="./image/teamcard1.jpg" alt="чоловік шатен в окулярах" width="270" height="260">
-      <h2 class="team-name">Ігор Дем'яненко</h2>
-      <p class="team-work">Product Designer</p>
-    </li>
-      <li class="team-item">
-        <img src="./image/teamcard2.jpg" alt="жінка блондинка в окулярах" width="270" height="260">
-        <h2 class="team-name">Ольга Рєпіна</h2>
-        <p class="team-work">Frontend Developer</p>
+        <img src="./image/teamcard1.jpg" alt="чоловік шатен в окулярах" width="270" height="260" class="image">
+        <div class="team-text">
+           <h2 class="team-name">Ігор Дем'яненко</h2>
+           <p class="team-work">Product Designer</p>
+        </div>
       </li>
       <li class="team-item">
-        <img src="./image/teamcard3.jpg" alt="чоловік шатен в блакитній сорочці" width="270" height="260">
-        <h2 class="team-name">Микола Тарасов</h2>
-        <p class="team-work">Marketing</p>
+        <img src="./image/teamcard2.jpg" alt="жінка блондинка в окулярах" width="270" height="260" class="image">
+        <div class="team-text">
+          <h2 class="team-name">Ольга Рєпіна</h2>
+          <p class="team-work">Frontend Developer</p>
+        </div>
       </li>
       <li class="team-item">
-        <img src="./image/teamcard4.jpg" alt="бородатий чоловік брюнет в окулярах" width="270" height="260">
-        <h2 class="team-name">Михайло Єрмаков</h2>
-        <p class="team-work">UI Designer</p>
+        <img src="./image/teamcard3.jpg" alt="чоловік шатен в блакитній сорочці" width="270" height="260" class="image">
+        <div class="team-text">
+           <h2 class="team-name">Микола Тарасов</h2>
+           <p class="team-work">Marketing</p>
+        </div>
+      </li>
+      <li class="team-item">
+        <img src="./image/teamcard4.jpg" alt="бородатий чоловік брюнет в окулярах" width="270" height="260" class="image">
+        <div class="team-text">
+           <h2 class="team-name">Михайло Єрмаков</h2>
+           <p class="team-work">UI Designer</p>
+        </div>
       </li>
     </ul>
     </div>
@@ -107,7 +115,7 @@
   </main>
   <footer class="footer">
     <div class="container">
-    <a href="./" class="logo footer-logo"><span class="web-logo">Web</span><span class="studio-logo-footer">Studio</span></a>
+    <a href="./" class="emblem footer-logo"><span class="web-logo">Web</span><span class="studio-logo-footer">Studio</span></a>
     <address>
       <ul class="footer-information">
         <li><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow" class="footer-adress">м. Київ, пр-т Лесі Українки, 26</a>  </li>
